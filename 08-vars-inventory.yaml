@@ -3,6 +3,6 @@
   tasks:
   - name: print information # Here name can be any thing there no validations 
     vars:
-      timings: "12:33PM IST"
+      timings: "12:34PM IST"
     ansible.builtin.debug:
       msg: "Hi, We are learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}. Timings are: {{timings}}"
